@@ -1,0 +1,46 @@
+
+
+// windows
+
+1. Go to http://luabinaries.sourceforge.net/
+
+2. Click on the version you want to download. This will bring you to Sourceforge. 
+   Click on Tools Executables and choose the download option for your OS. 
+   If you want to install the x32 or the x64 is up to you.
+
+3. Once you have downloaded the .zip folder, you need to extract all it's contents to a known and accessable location. 
+   In the folder there should be a three .exe files and a .dll file.
+
+4. Install chocolatey https://chocolatey.org/install then powershell:
+   choco install lua53
+   notepad $PROFILE
+
+5. within notepad:
+   new-alias -name lua lua53
+   
+
+-----
+
+
+// linux
+ 
+$ sudo apt install lua5.3
+
+
+-----
+
+
+// mac
+
+install brew https://brew.sh/
+brew install lua
+
+or
+
+download source code from lua.org/download.html
+navigate to directory in terminal
+
+ make macosx
+ sudo make install
+
+ in terminal
