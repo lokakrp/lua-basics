@@ -10,10 +10,10 @@ end
 
 -- pairs - another way to loop through tables to get the index
 
-local list = {1, 3, 5, 7, 9}  -- Define a Lua table named 'list' containing a sequence of numbers.
+local list = {1, 3, 5, 7, 9}                
 
-for index, value in pairs(list) do  -- Iterate over the elements,'index' = the index, 'value' represents the value 
-    print(index, value)  -- prints  the index and the corresponding value to the console.
+for index, value in pairs(list) do                         -- Iterate over the elements,'index' = the index, 'value' represents the value 
+    print(index, value)                                    -- prints  the index and the corresponding value to the console.
 end
 
 
